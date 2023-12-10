@@ -1,8 +1,19 @@
-#忽略所有.svn目录
-.svn/
-#忽略所有target目录
-target/
-#忽略所有.idea目录
+### javaIgnore template
+# Compiled class file
+*.class
+
+# Intellij
 .idea/
-#忽略所有.iml文件
 *.iml
+
+# Eclipse
+.project
+.settings/
+.classpath
+
+# Maven
+target/
+
+# Gradle
+build
+.gradle
